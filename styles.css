@@ -42,6 +42,18 @@ body {
     color: #00ff9d;
 }
 
+.nav-links .highlight {
+    background: #00ff9d;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.nav-links .highlight:hover {
+    background: #00cc7d;
+    color: #333;
+}
+
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1920x1080/?technology');
     height: 60vh;
@@ -61,6 +73,23 @@ body {
     margin-bottom: 1rem;
 }
 
+.cta-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: #00ff9d;
+    border: none;
+    border-radius: 25px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #00cc7d;
+    transform: translateY(-2px);
+}
+
 main {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -74,6 +103,25 @@ section {
 h2 {
     color: #333;
     margin-bottom: 1.5rem;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature {
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.feature h3 {
+    color: #333;
+    margin-bottom: 1rem;
 }
 
 footer {
